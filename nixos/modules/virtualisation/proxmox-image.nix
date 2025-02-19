@@ -292,7 +292,7 @@ with lib;
                       pkgs.fetchFromGitHub {
                         owner = "proxmox";
                         repo = "pve-qemu";
-                        rev = "14afbdd55f04d250bd679ca1ad55d3f47cd9d4c8";
+                        rev = "e247b46563eeade938afe328afc0ada50fd30a67";
                         hash = "sha256-lSJQA5SHIHfxJvMLIID2drv2H43crTPMNIlIT37w9Nc=";
                       }
                     }/debian/patches/pve/0027-PVE-Backup-add-vma-backup-format-code.patch"
