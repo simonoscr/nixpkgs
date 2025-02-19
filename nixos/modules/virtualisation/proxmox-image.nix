@@ -281,10 +281,10 @@ with lib;
                 (super: rec {
                   # Check https://github.com/proxmox/pve-qemu/tree/master for the version
                   # of qemu and patch to use
-                  version = "9.0.0";
+                  version = "9.2.0";
                   src = pkgs.fetchurl {
                     url = "https://download.qemu.org/qemu-${version}.tar.xz";
-                    hash = "sha256-MnCKxmww2MiSYz6paMdxwcdtWX1w3erSGg0izPOG2mk=";
+                    hash = "sha256-+FnwvGXh9TPQQLvoySvP7O5a8skhpmh8ZS+0TQib2JQ=";
                   };
                   patches = [
                     # Proxmox' VMA tool is published as a particular patch upon QEMU
