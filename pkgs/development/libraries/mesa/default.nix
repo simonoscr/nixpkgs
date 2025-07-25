@@ -108,6 +108,7 @@
     "overlay"
     "screenshot"
     "vram-report-limit"
+    "anti_lag"
   ],
   mesa,
   mesa-gl-headers,
